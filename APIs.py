@@ -26,5 +26,5 @@ def get_artworks(api_key, size=10, page=1):
         print(f"Error al consultar la API: {respuesta_API.status_code}")
 
 if __name__ == '__main__':
-    api_key = 'd7a5ebe1-b2be-4b5a-b258-907519168c54'  # Reemplaza esto con tu clave de API real
+    api_key = 'd7a5ebe1-b2be-4b5a-b258-907519168c54'
     get_artworks(api_key)
